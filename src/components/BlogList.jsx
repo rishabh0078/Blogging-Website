@@ -19,13 +19,8 @@ const BlogList = ({ posts, showFeatured = false, gridCols = "md:grid-cols-2 lg:g
 
   return (
     <div className="space-y-8">
-      {/* Featured Post */}
-      {featuredPost && (
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Featured Post</h2>
-          <BlogCard post={featuredPost} featured={true} />
-        </div>
-      )}
+     
+      
 
       {/* Regular Posts Grid */}
       {regularPosts.length > 0 && (

@@ -51,7 +51,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Visit Us",
-      content: "San Francisco, CA",
+      content: "India",
       description: "Come say hello at our headquarters"
     },
     {
@@ -61,29 +61,11 @@ const Contact = () => {
         </svg>
       ),
       title: "Call Us",
-      content: "+1 (555) 123-4567",
+      content: "+91 1234567890",
       description: "Mon-Fri from 9am to 6pm PST"
     }
   ];
 
-  const faqs = [
-    {
-      question: "How can I submit a guest post?",
-      answer: "We welcome guest contributions! Please send us your article pitch along with a brief author bio to hello@blogspace.com. We'll review your submission and get back to you within a week."
-    },
-    {
-      question: "Can I republish your articles?",
-      answer: "You're welcome to share excerpts of our articles with proper attribution and a link back to the original post. For full republication rights, please contact us directly."
-    },
-    {
-      question: "How often do you publish new content?",
-      answer: "We publish new articles 3-4 times per week across various categories including technology, lifestyle, travel, and more."
-    },
-    {
-      question: "Do you offer sponsored content opportunities?",
-      answer: "Yes, we offer various partnership opportunities including sponsored posts, newsletter mentions, and banner advertising. Contact us for our media kit and pricing."
-    }
-  ];
 
   return (
     <div className="min-h-screen">
@@ -244,26 +226,6 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-gray-600">
-              Find answers to common questions about BlogSpace
-            </p>
-          </div>
-          <div className="space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.question}</h3>
-                <p className="text-gray-600">{faq.answer}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>

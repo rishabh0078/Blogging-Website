@@ -38,24 +38,7 @@ const Sidebar = () => {
   return (
     <aside className="w-full lg:w-80 space-y-8">
       {/* About Widget */}
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-4">About BlogSpace</h3>
-        <div className="flex items-center mb-4">
-          <img
-            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80"
-            alt="Author"
-            className="w-16 h-16 rounded-full object-cover mr-4"
-          />
-          <div>
-            <h4 className="font-semibold text-gray-900">John Doe</h4>
-            <p className="text-gray-600 text-sm">Content Creator</p>
-          </div>
-        </div>
-        <p className="text-gray-600 text-sm">
-          Welcome to my blog! I share insights about technology, lifestyle, and everything in between.
-          Join me on this journey of discovery and learning.
-        </p>
-      </div>
+      
 
       {/* Recent Posts Widget */}
       <div className="bg-white rounded-lg shadow-md p-6">
@@ -83,9 +66,7 @@ const Sidebar = () => {
           {categories.map((category, index) => (
             <div key={index} className="flex justify-between items-center py-2 hover:bg-gray-50 px-2 rounded cursor-pointer transition-colors">
               <span className="text-gray-700 hover:text-blue-600">{category.name}</span>
-              <span className="bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded-full">
-                {category.count}
-              </span>
+              
             </div>
           ))}
         </div>
