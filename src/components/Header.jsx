@@ -37,7 +37,7 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-2">
             {[
               { path: '/', label: 'Home' },
-              { path: '/blog', label: 'Blog' },
+              { path: '/blog', label: 'Blogs' },
               { path: '/about', label: 'About' },
               { path: '/contact', label: 'Contact' }
             ].map(({ path, label }) => (
