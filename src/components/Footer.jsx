@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
              
-              <h3 className="text-3xl font-bold gradient-text">BlogSpace</h3>
+              <h3 className="text-3xl font-bold gradient-text">The Blog</h3>
             </div>
             
             <p className="text-gray-300 mb-8 max-w-md text-lg leading-relaxed">
@@ -118,7 +118,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex items-center space-x-4">
               <p className="text-slate-300 text-sm">
-                © 2025 BlogSpace. Crafted with ❤️ by Rishabh Chaudhary
+                Crafted with ❤️ by Rishabh Chaudhary
               </p>
             </div>
             
