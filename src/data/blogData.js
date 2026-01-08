@@ -1,9 +1,9 @@
 export const blogPosts = [
   {
     id: 1,
-    title: "Getting Started with React Hooks: A Complete Guide",
+    title: "Android vs iOS: Which One Should You Choose in 2025?",
     slug: "getting-started-with-react-hooks",
-    excerpt: "Learn how to use React Hooks to manage state and side effects in your functional components. This comprehensive guide covers useState, useEffect, and custom hooks.",
+    excerpt: "If there’s one debate that never seems to end, it’s Android vs iOS. Every year new phones come out, features change, and yet the question stays the same",
     content: `
       <p>React Hooks have revolutionized the way we write React components. Introduced in React 16.8, hooks allow you to use state and other React features in functional components.</p>
       
@@ -39,7 +39,7 @@ function Counter() {
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     category: "Technology",
     author: {
-      name: "John Doe",
+      name: "rishabh",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Full-stack developer passionate about React and modern web technologies."
     },
@@ -82,7 +82,7 @@ function Counter() {
     },
     publishedAt: "Dec 12, 2024",
     readTime: 6,
-    likes: 38,
+    likes: 100,
     comments: 8,
     featured: true,
     tags: ["CSS", "Tailwind", "Responsive Design", "Frontend"]
@@ -115,13 +115,13 @@ function Counter() {
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     category: "Lifestyle",
     author: {
-      name: "Sarah Johnson",
+      name: "Rishabh",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Minimalist lifestyle advocate and wellness coach helping others find balance and intentionality."
     },
     publishedAt: "Dec 10, 2024",
     readTime: 5,
-    likes: 56,
+    likes: 100,
     comments: 15,
     featured: false,
     tags: ["Minimalism", "Lifestyle", "Wellness", "Productivity"]
@@ -157,13 +157,13 @@ function Counter() {
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     category: "Travel",
     author: {
-      name: "Mike Chen",
+      name: "Rishabh",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Adventure traveler and photographer documenting unique destinations around the world."
     },
     publishedAt: "Dec 8, 2024",
     readTime: 7,
-    likes: 73,
+    likes: 100,
     comments: 22,
     featured: false,
     tags: ["Travel", "Adventure", "Hidden Gems", "Photography"]
@@ -202,13 +202,13 @@ function Counter() {
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     category: "Food",
     author: {
-      name: "Emma Wilson",
+      name: "Rishabh",
       avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Chef and cookbook author passionate about sustainable cooking and local food systems."
     },
     publishedAt: "Dec 5, 2024",
     readTime: 6,
-    likes: 45,
+    likes: 100,
     comments: 11,
     featured: false,
     tags: ["Food", "Cooking", "Seasonal", "Sustainability"]
@@ -247,13 +247,13 @@ function Counter() {
     image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     category: "Health",
     author: {
-      name: "Dr. Lisa Park",
+      name: "Rishabh",
       avatar: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
       bio: "Licensed therapist specializing in digital wellness and modern mental health challenges."
     },
     publishedAt: "Dec 3, 2024",
     readTime: 8,
-    likes: 89,
+    likes: 100,
     comments: 34,
     featured: false,
     tags: ["Mental Health", "Digital Wellness", "Balance", "Self Care"]

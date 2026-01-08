@@ -68,11 +68,7 @@ const BlogPost = ({ post }) => {
 
         <div className="flex items-center justify-between border-b border-gray-200 pb-6">
           <div className="flex items-center">
-            <img
-              src={post.author.avatar}
-              alt={post.author.name}
-              className="w-12 h-12 rounded-full object-cover mr-4"
-            />
+            
             <div>
               <p className="font-semibold text-gray-900">{post.author.name}</p>
               <div className="flex items-center text-sm text-gray-500">
@@ -108,14 +104,7 @@ const BlogPost = ({ post }) => {
         </div>
       </header>
 
-      {/* Featured Image */}
-      <div className="mb-8">
-        <img
-          src={post.image}
-          alt={post.title}
-          className="w-full h-96 object-cover rounded-lg shadow-lg"
-        />
-      </div>
+      
 
       {/* Post Content */}
       <div className="prose prose-lg max-w-none mb-12">
@@ -142,11 +131,6 @@ const BlogPost = ({ post }) => {
       {/* Author Bio */}
       <div className="bg-gray-50 rounded-lg p-6 mb-8">
         <div className="flex items-start">
-          <img
-            src={post.author.avatar}
-            alt={post.author.name}
-            className="w-16 h-16 rounded-full object-cover mr-4 flex-shrink-0"
-          />
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               About {post.author.name}

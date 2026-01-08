@@ -31,8 +31,7 @@ const Sidebar = () => {
   ];
 
   const tags = [
-    "React", "JavaScript", "Web Development", "CSS", "Node.js",
-    "Travel", "Photography", "Lifestyle", "Health", "Food"
+    
   ];
 
   return (
